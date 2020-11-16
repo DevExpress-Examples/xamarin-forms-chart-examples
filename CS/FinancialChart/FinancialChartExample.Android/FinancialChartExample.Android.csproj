@@ -49,12 +49,6 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Xamarin.Forms" Version="4.8.0.1560" />
-    <PackageReference Include="Xamarin.Google.Android.Material" Version="1.1.0.5-rc3" />
-    <PackageReference Include="Xamarin.AndroidX.AppCompat" Version="1.2.0.4" />
-    <PackageReference Include="Xamarin.AndroidX.Legacy.Support.V4" Version="1.0.0.5" />
-    <PackageReference Include="Xamarin.AndroidX.CardView" Version="1.0.0.5" />
-    <PackageReference Include="Xamarin.AndroidX.MediaRouter" Version="1.1.0.5" />
-    <PackageReference Include="Xamarin.AndroidX.Migration" Version="1.0.7.1" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MainActivity.cs" />

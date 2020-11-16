@@ -47,6 +47,7 @@ Global
 		{138DB67B-31DF-4684-BE5D-2889B504F09A}.Debug|iPhone.Build.0 = Debug|Any CPU
 		{138DB67B-31DF-4684-BE5D-2889B504F09A}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
 		{138DB67B-31DF-4684-BE5D-2889B504F09A}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{138DB67B-31DF-4684-BE5D-2889B504F09A}.Debug|iPhoneSimulator.Deploy.0 = Debug|Any CPU
 		{138DB67B-31DF-4684-BE5D-2889B504F09A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{138DB67B-31DF-4684-BE5D-2889B504F09A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{138DB67B-31DF-4684-BE5D-2889B504F09A}.Release|iPhone.ActiveCfg = Release|Any CPU
@@ -104,6 +105,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {FF9DA68B-B003-490F-967A-E66E30BCBC56}
+		SolutionGuid = {F7DC5B1A-CD84-43E9-9C62-E4959A9944C6}
 	EndGlobalSection
 EndGlobal
