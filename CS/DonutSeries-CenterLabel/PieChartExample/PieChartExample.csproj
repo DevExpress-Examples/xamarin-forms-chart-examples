@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
@@ -17,4 +17,5 @@
     <Folder Include="ViewModels\" />
     <Folder Include="Data\" />
   </ItemGroup>
+  <ProjectExtensions><VisualStudio><UserProperties XamarinHotReloadXFormsNugetUpgradeInfoBarPieChartExampleHideInfoBar="True" /></VisualStudio></ProjectExtensions>
 </Project>
