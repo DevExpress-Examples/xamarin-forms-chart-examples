@@ -11,7 +11,7 @@
         <dxc:ChartView.Series>
             <dxc:PointSeries>
                 <dxc:PointSeries.Data>
-                    <dxc:SeriesDataAdapter DataSource="{Binding PowerConsumptionCenterBranch}" ArgumentDataMember="Time">
+                    <dxc:SeriesDataAdapter DataSource="{Binding Data}" ArgumentDataMember="Time">
                         <dxc:ValueDataMember Type="Value" Member="Power"/>
                     </dxc:SeriesDataAdapter>
                 </dxc:PointSeries.Data>

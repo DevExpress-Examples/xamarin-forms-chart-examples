@@ -3,10 +3,10 @@ using System.Collections.Generic;
 
 namespace ColorEachPointColorizerExample {
     public class ViewModel {
-        public List<DataItem> PowerConsumptionCenterBranch { get; }
+        public List<DataItem> Data { get; }
 
         public ViewModel() {
-            PowerConsumptionCenterBranch = new List<DataItem> {
+            Data = new List<DataItem> {
                 new DataItem(new DateTime(2019, 6, 24), 429),
                 new DataItem(new DateTime(2019, 6, 27), 432),
                 new DataItem(new DateTime(2019, 7, 1), 301),
