@@ -1,4 +1,5 @@
 {
   "autoGenerateVb": false,
-  "runOnWeb": false
+  "runOnWeb": false,
+  "commonSln": "./CS/chart-examples.sln"
 }
