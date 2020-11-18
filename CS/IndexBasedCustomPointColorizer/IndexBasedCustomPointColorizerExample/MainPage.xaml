@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:dxc="http://schemas.devexpress.com/xamarin/2014/forms/charts"
+             x:Class="IndexBasedCustomPointColorizerExample.MainPage"
+             xmlns:local="clr-namespace:IndexBasedCustomPointColorizerExample">
+    <ContentPage.BindingContext>
+        <local:ViewModel/>
+    </ContentPage.BindingContext>
+    <dxc:ChartView Rotated="True">
+        <dxc:ChartView.Series>
+            <dxc:BarSeries PointColorizer="{local:ColorizerByRegion}">
+                <dxc:BarSeries.Data>
+                    <dxc:SeriesDataAdapter DataSource="{Binding CountryStatisticsData}"
+                                           ArgumentDataMember="Country">
+                        <dxc:ValueDataMember Type="Value" Member="Gdp"/>
+                    </dxc:SeriesDataAdapter>
+                </dxc:BarSeries.Data>
+            </dxc:BarSeries>
+        </dxc:ChartView.Series>
+
+        <dxc:ChartView.AxisX>
+            <dxc:QualitativeAxisX>
+                <dxc:QualitativeAxisX.Style>
+                    <dxc:AxisStyle MajorTickmarksVisible="True"/>
+                </dxc:QualitativeAxisX.Style>
+            </dxc:QualitativeAxisX>
+        </dxc:ChartView.AxisX>
+        <dxc:ChartView.AxisY>
+            <dxc:NumericAxisY>
+                <dxc:NumericAxisY.Style>
+                    <dxc:AxisStyle MajorTickmarksVisible="True"
+                                   MinorTickmarksVisible="True"/>
+                </dxc:NumericAxisY.Style>
+                <dxc:NumericAxisY.Title>
+                    <dxc:AxisTitle Text="GDP per capita, millions USD"/>
+                </dxc:NumericAxisY.Title>
+            </dxc:NumericAxisY>
+        </dxc:ChartView.AxisY>
+        <dxc:ChartView.Legend>
+            <dxc:Legend HorizontalPosition="Center"
+                        VerticalPosition="BottomOutside"
+                        Orientation="LeftToRight"/>
+        </dxc:ChartView.Legend>
+    </dxc:ChartView>
+</ContentPage>

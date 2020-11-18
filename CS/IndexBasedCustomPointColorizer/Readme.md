@@ -1,0 +1,1 @@
+<img src="./img/bar-series-custom-index-based.png" width="85%" />
