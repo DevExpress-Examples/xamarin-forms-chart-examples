@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:dxc="http://schemas.devexpress.com/xamarin/2014/forms/charts"
              xmlns:local="clr-namespace:LineSegmentColorizerExample"
-             xmlns:dxc="clr-namespace:DevExpress.XamarinForms.Charts;assembly=DevExpress.XamarinForms.Charts"
              x:Class="LineSegmentColorizerExample.MainPage">
     <ContentPage.BindingContext>
         <local:ViewModel/>
@@ -12,7 +12,7 @@
             <dxc:SplineSeries LegendTextPattern="{}{CLV}°C — {CHV}°C">
                 <dxc:SplineSeries.Data>
                     <dxc:SeriesDataAdapter DataSource="{Binding Data}" ArgumentDataMember="Argument">
-                           <dxc:ValueDataMember Member="Value" Type="Value" />
+                        <dxc:ValueDataMember Member="Value" Type="Value"/>
                     </dxc:SeriesDataAdapter>
                 </dxc:SplineSeries.Data>
                 <dxc:SplineSeries.SegmentColorizer>

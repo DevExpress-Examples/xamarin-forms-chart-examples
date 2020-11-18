@@ -4,7 +4,6 @@ using System.Collections.Generic;
 namespace LineSegmentColorizerExample {
     public class ViewModel {
         public List<DataItem> Data { get; }
-
         public ViewModel() {
             Data = new List<DataItem>() {
                 new DataItem() { Argument = new DateTime(2018, 1, 1), Value = -17.5 },
