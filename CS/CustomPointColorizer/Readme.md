@@ -1,0 +1,1 @@
+<img src="./img/custom-point-colorizer.png" width="85%" />

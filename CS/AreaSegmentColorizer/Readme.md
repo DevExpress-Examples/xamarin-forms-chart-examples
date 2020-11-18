@@ -1,0 +1,1 @@
+<img src="./img/area-series-segment-colorizer.png" width="85%" />

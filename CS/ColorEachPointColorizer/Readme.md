@@ -1,0 +1,1 @@
+<img src="./img/color-each-point.png" width="85%" />

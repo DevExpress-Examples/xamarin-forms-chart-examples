@@ -1,0 +1,1 @@
+<img src="./img/bar-series-band.png" width="85%" />
