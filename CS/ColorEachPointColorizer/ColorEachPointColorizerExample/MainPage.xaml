@@ -37,7 +37,7 @@
             </dxc:PointSeries>
         </dxc:ChartView.Series>
         <dxc:ChartView.AxisX>
-            <dxc:DateTimeAxisX x:Name="myAxis" GridAlignment="Day" GridSpacing="5">
+            <dxc:DateTimeAxisX GridAlignment="Day" GridSpacing="5">
                 <dxc:DateTimeAxisX.LabelFormatAutoReplaceOptions>
                     <dxc:AxisLabelFormatAutoReplaceOptions Enabled="True">
                         <dxc:DateTimeLabelFormat MeasureUnit="Day" Format="d"/>
