@@ -12,6 +12,7 @@ namespace ValueRangeColorizerExample
     {
         public MainPage()
         {
+            DevExpress.XamarinForms.Charts.Initializer.Init();
             InitializeComponent();
         }
     }
