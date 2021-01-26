@@ -9,3 +9,4 @@ Examples:
 - [Custom Value Range Colorizer](./CS/CustomValueRangeColorizer) 
 - [Line Segment Colorizer](./CS/LineSegmentColorizer)  
 - [Area Segment Colorizer](./CS/AreaSegmentColorizer)
+- [Custom Text for Series Labels](./CS/PieSeries-CustomLabels)
