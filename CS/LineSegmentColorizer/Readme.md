@@ -1,4 +1,12 @@
-In this example, the spline chart displays the temperature curve colored based on ranges of temperature values.
+<!-- default file list -->
+*Files to look at*:
+
+* [MainPage.xaml](./LineSegmentColorizerExample/MainPage.xaml)
+* [ViewModel.cs](./LineSegmentColorizerExample/ViewModel.cs)
+<!-- default file list end -->
+# Colorize Line Segments
+
+In this example, the spline chart displays the temperature curve colored based on ranges of temperature values. For a complete description, refer to the following help topic: [Colorize Line and Area Segments](https://docs.devexpress.com/MobileControls/402320/xamarin-forms/charts/examples/color-segments#line-segments).
 
 <img src="./img/line-series-segment-colorizer.png" width="85%" />
 

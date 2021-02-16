@@ -1,4 +1,12 @@
-In this example, the bubble chart displays GDP values for the G20. A point's size indicates the country population and the color indicates the [HPI](https://en.wikipedia.org/wiki/Happy_Planet_Index).
+<!-- default file list -->
+*Files to look at*:
+
+* [MainPage.xaml](./CustomValueRangeColorizer/MainPage.xaml)
+* [ViewModel.cs](./CustomValueRangeColorizer/ViewModel.cs)
+<!-- default file list end -->
+# Custom Value Range Colorizer
+
+In this example, the bubble chart displays GDP values for the G20. A point's size indicates the country population and the color indicates the [HPI](https://en.wikipedia.org/wiki/Happy_Planet_Index). For a complete description, refer to the following help topic: [Colorize Series Points](https://docs.devexpress.com/MobileControls/401980/xamarin-forms/charts/examples/color-series#value-range-colorizers).
 
 <img src="./img/custom-value-range-colorizer.png" width="85%" />
 

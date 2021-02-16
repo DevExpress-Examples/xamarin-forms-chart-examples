@@ -1,4 +1,12 @@
-In this example, the bar chart displays monthly values colored based on the season.
+<!-- default file list -->
+*Files to look at*:
+
+* [MainPage.xaml](./CustomPointColorizer/MainPage.xaml)
+* [ViewModel.cs](./CustomPointColorizer/ViewModel.cs)
+<!-- default file list end -->
+# Color Points by Their Arguments
+
+In this example, the bar chart displays monthly values colored based on the season. For a complete description, refer to the following help topic: [Colorize Series Points](https://docs.devexpress.com/MobileControls/401980/xamarin-forms/charts/examples/color-series#color-points-by-their-arguments).
 
 <img src="./img/custom-point-colorizer.png" width="85%" />
 

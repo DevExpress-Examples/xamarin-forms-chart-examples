@@ -1,3 +1,13 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [MainPage.xaml](./ColorEachPointColorizerExample/MainPage.xaml)
+* [ViewModel.cs](./ColorEachPointColorizerExample/ViewModel.cs)
+<!-- default file list end -->
+# Predefined Point Colorizer
+
+This example demonstrates how to paint series points with colors from the specified palette. For a complete description, refer to the following help topic: [Colorize Series Points](https://docs.devexpress.com/MobileControls/401980/xamarin-forms/charts/examples/color-series#point-colorizers).
+
 <img src="./img/color-each-point.png" width="85%" />
 
 To run the application:

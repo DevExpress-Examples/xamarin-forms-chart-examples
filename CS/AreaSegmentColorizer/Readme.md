@@ -1,4 +1,12 @@
-In this example, the area chart visualizes the visible light spectrum.
+<!-- default file list -->
+*Files to look at*:
+
+* [MainPage.xaml](./AreaSegmentColorizerExample/MainPage.xaml)
+* [ViewModel.cs](./AreaSegmentColorizerExample/ViewModel.cs)
+<!-- default file list end -->
+# Colorize Area Segments
+
+In this example, the area chart visualizes the visible light spectrum. For a complete description, refer to the following help topic: [Colorize Line and Area Segments](https://docs.devexpress.com/MobileControls/402320/xamarin-forms/charts/examples/color-segments#area-segments).
 
 <img src="./img/area-series-segment-colorizer.png" width="85%" />
 

@@ -1,4 +1,12 @@
-In this example, the bar chart visualizes GDP values for the G20 and colors data points according to which part of the world the country belongs.
+<!-- default file list -->
+*Files to look at*:
+
+* [MainPage.xaml](./IndexBasedCustomPointColorizerExample/MainPage.xaml)
+* [ViewModel.cs](./IndexBasedCustomPointColorizerExample/ViewModel.cs)
+<!-- default file list end -->
+# Color Points by Data Source Values
+
+In this example, the bar chart visualizes GDP values for the G20 and colors data points according to which part of the world the country belongs. For a complete description, refer to the following help topic: [Colorize Series Points](https://docs.devexpress.com/MobileControls/401980/xamarin-forms/charts/examples/color-series#color-points-by-data-source-values).
 
 <img src="./img/bar-series-custom-index-based.png" width="85%" />
 
